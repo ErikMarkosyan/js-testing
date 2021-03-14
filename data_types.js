@@ -56,3 +56,16 @@ let phrase = `can embed another ${str}`;
 // They allow us to embed variables and expressions into a string by wrapping them in ${…}, for example:
 
 console.log( `the result is ${1 + 2}` ); // the result is 3
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Boolean
+
+// The boolean type has only two values: true and false.
+
+let nameFieldChecked = true; // yes, name field is checked
+let ageFieldChecked = false; // no, age field is not checked
+
+// Boolean values also come as a result of comparisons:
+
+let isGreater = 4 > 1; // true
