@@ -34,3 +34,28 @@ console.log(device1); //this will return 'PlayStation', we changed value of devi
 // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// Code Structure 
+
+// Statements is a ??? 
+
+let firstName // a statement
+let dateOfBirth = 0 // a statement
+function someFunction() {} // a statement
+if(true){} // a statement
+2+2 // a statement
+
+// Expression produce values
+
+2+2 // an expression
+true // an expression
+true && false // an expression
+// functionCall(); // whatever the function returns
+let declaredVariable // not an expression
+declaredVariable // the value of declaredVariable is an expression
+declaredVariable = 'new value' // assignment expression
+
+// Summary
+// Statements just do things.
+// Semicolon is a ; symbol that separates Statements in JavaScript
+// Expression - produce values
+// Comment your code to describe what the code does and why
