@@ -39,4 +39,20 @@ console.log('some text' / 2 + 5) // NaN
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+// String
 
+// Double quotes: "Hello".
+// Single quotes: 'Hello'.
+// Backticks: `Hello`.
+
+let str = "Hello";
+let str2 = 'Single quotes are ok too';
+let phrase = `can embed another ${str}`;
+
+// Double and single quotes are “simple” quotes. 
+// There’s practically no difference between them in JavaScript.
+
+// Backticks are “extended functionality” quotes. 
+// They allow us to embed variables and expressions into a string by wrapping them in ${…}, for example:
+
+console.log( `the result is ${1 + 2}` ); // the result is 3
