@@ -71,3 +71,19 @@ console.log( Boolean(undefined) ); // false
 
 console.log( Boolean("0") ); // true
 console.log( Boolean(" ") ); // spaces, also true (any non-empty string is true)
+
+// Summary
+// The three most widely used type conversions are to string, to number, and to boolean.
+
+// String Conversion – Occurs when we output something. Can be performed with String(value). 
+// The conversion to string is usually obvious for primitive values.
+
+// Numeric Conversion – Occurs in math operations. Can be performed with Number(value).
+
+// Boolean Conversion – Occurs in logical operations. Can be performed with Boolean(value).
+
+// Most of these rules are easy to understand and memorize. 
+// The notable exceptions where people usually make mistakes are:
+
+// undefined is NaN as a number, not 0.
+// "0" and space-only strings like " " are true as a boolean.
